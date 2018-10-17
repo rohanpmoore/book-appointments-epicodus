@@ -12,33 +12,50 @@
     <div class="container">
       <h1 class="jumbotron">Appointment Booking</h1>
 
-      <form id="appointment">
+      <form id="appointment" class="form-horizontal">
         <div class="form-group">
-          <label for="fullName">Enter your Full name:</label>
-          <input id="fullName" class="form-control" type="text">
+          <label for="fullName" class="control-label col-sm-4">Enter your Full name:</label>
+            <div class="col-sm-8">
+              <input id="fullName" class="form-control" type="text">
+            </div>
         </div>
 
         <div class="form-group">
-          <label for="desc">Describe the nature of the appointment:</label>
-          <input id="desc" class="form-control" type="text">
+          <label for="desc" class="control-label col-sm-4">Describe the nature of the appointment:</label>
+          <div class="col-sm-8">
+            <input id="desc" class="form-control" type="text">
+          </div>
+
         </div>
 
         <div class="form-group">
-          <label for="userDate">Enter appointment date:</label>
-          <input id="userDate" class="form-control" type="text">
+          <label for="userDate" class="control-label col-sm-4">Enter appointment date:</label>
+          <div class="col-sm-8">
+            <input id="userDate" class="form-control" type="text">
+          </div>
+
         </div>
 
         <div class="form-group">
-          <label for="startTime">Enter the appointment starttime</label>
-          <input id="startTime" class="form-control" type="text">
+          <label for="startTime" class="control-label col-sm-4">Enter the appointment starttime</label>
+            <div class="col-sm-8">
+              <input id="startTime" class="form-control" type="text">
+            </div>
+
         </div>
 
         <div class="form-group">
-          <label for="endTime">Enter the appointment endtime:</label>
-          <input id="endTime" class="form-control" type="text">
-        </div>
+          <label for="endTime" class="control-label col-sm-4">Enter the appointment endtime:</label>
+            <div class="col-sm-8">
+              <input id="endTime" class="form-control" type="text">
+            </div>
 
-        <button type="submit" class="button">Submit Appointment Booking!</button>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-4 col-sm-8">
+            <button type="submit" class="button">Submit Appointment Booking!</button>
+          </div>
+        </div>
       </form>
 
 
